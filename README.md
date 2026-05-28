@@ -1,3 +1,5 @@
+![The North Face](tnf_logo.png)
+
 # The North Face — Recommandation produits & Topic Modeling
 
 Projet réalisé dans le cadre du bloc 3 de la certification CDSD (Jedha).
