@@ -49,6 +49,10 @@ The_North_Face/
 │   └── northface.ipynb
 ├── reports/
 │   └── figures/
+│       ├── 01_cluster_distribution.png
+│       ├── 02_topic_distribution.png
+│       ├── 03_dbscan_wordclouds.png
+│       └── 04_lsa_wordclouds.png
 └── README.md
 ```
 
