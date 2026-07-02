@@ -1,6 +1,6 @@
 ![The North Face](tnf_logo.png)
 
-# The North Face — Recommandation produits & Topic Modeling
+# The North Face - Recommandation produits & Topic Modeling
 
 Projet réalisé dans le cadre du bloc 3 de la certification CDSD (Jedha).
 
@@ -14,15 +14,15 @@ The North Face veut booster ses ventes en ligne en améliorant l'expérience sur
 
 ## Ce que j'ai fait
 
-**Partie 1 — Clustering**
+**Partie 1 - Clustering**
 
 Nettoyage HTML des descriptions produits, preprocessing NLP avec spaCy (lemmatisation, stop words), vectorisation TF-IDF. Clustering DBSCAN avec distance cosine pour regrouper les produits aux descriptions similaires. Wordclouds par cluster pour interpréter les résultats.
 
-**Partie 2 — Système de recommandation**
+**Partie 2 - Système de recommandation**
 
 Fonction `find_similar_items(item_id)` qui retourne 5 produits appartenant au même cluster que le produit sélectionné. Interface simple avec `input()` pour tester les suggestions.
 
-**Partie 3 — Topic Modeling (LSA)**
+**Partie 3 - Topic Modeling (LSA)**
 
 TruncatedSVD pour extraire les thèmes latents du catalogue. Wordclouds par topic pour visualiser et interpréter chaque thème.
 
@@ -30,9 +30,9 @@ TruncatedSVD pour extraire les thèmes latents du catalogue. Wordclouds par topi
 
 ## Stack
 
-- Python — Pandas, Matplotlib, WordCloud
-- spaCy (`en_core_web_sm`) — preprocessing NLP
-- Scikit-learn — TfidfVectorizer, DBSCAN, TruncatedSVD
+- Python - Pandas, Matplotlib, WordCloud
+- spaCy (`en_core_web_sm`) - preprocessing NLP
+- Scikit-learn - TfidfVectorizer, DBSCAN, TruncatedSVD
 
 ---
 
@@ -58,4 +58,4 @@ The_North_Face/
 
 ---
 
-Julien CHARLIER — [(Github : Atomik31)](https://github.com/Atomik31)
+Julien CHARLIER - [(Github : Atomik31)](https://github.com/Atomik31)
